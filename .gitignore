@@ -1,0 +1,16 @@
+/target
+roms/
+out/
+work/
+assets/translation/
+assets/graphics/
+assets/fonts/
+*.dsk
+*.DSK
+*.bps
+*.zip
+.DS_Store
+.claude/
+.emucap/
+.dotmend/
+.worktrees/
