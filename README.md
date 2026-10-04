@@ -40,7 +40,7 @@ cargo test --locked
 
 번역 JSON은 원본 SHA-256과 원문 참조를 함께 담으며, 형식은 이를 읽는 `src/cutscene_draft.rs`, `src/credits.rs`, `src/title.rs`, `src/encode_main.rs`, `src/menu_draft.rs`, `src/boot_warning.rs`, `src/direct_labels.rs`의 구조체가 정합니다. 배포 패치 v0.1.0은 제목 그래픽 SHA-256 `5161250ca6d96f16e7ab62258104fdb857a40c175224869e8893dffec56a1c12`로 만들었습니다.
 
-글꼴은 재배포 조건을 이 저장소에서 보장할 수 없어 포함하지 않습니다. 각 글꼴의 라이선스는 배포처에서 확인하세요. 빌드는 다음 SHA-256과 다른 글꼴 파일을 거부합니다.
+빌드는 다음 SHA-256과 다른 글꼴 파일을 거부합니다.
 
 ```text
 d61b60eccb731f8ca9c7da582e4a05a94db66b570471809950aa9a7261b941d6  neodgm.ttf
